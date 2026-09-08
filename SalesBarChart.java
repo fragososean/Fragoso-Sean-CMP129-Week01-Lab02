@@ -20,6 +20,8 @@ public class SalesBarChart {
             }
             ast = ast+"\n";
         }
+        System.out.println("SALES BAR CHART");
+        System.out.println("(Each * = $100)");
         System.out.print(ast);
     }   
 }
