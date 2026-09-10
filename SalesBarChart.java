@@ -14,7 +14,7 @@ public class SalesBarChart {
             System.out.print("Enter Today's Sales for Store "+(x+1)+": ");
             double y = input.nextDouble();
             y = y/100;
-
+            ast = ast+"Store "+(x+1)+": ";
             for (p=0; p<y; p++){
                 ast = ast+"*";
             }
@@ -22,7 +22,6 @@ public class SalesBarChart {
         }
         System.out.println("SALES BAR CHART");
         System.out.println("(Each * = $100)");
-        System.out.print("Store "+x+": ");
         System.out.print(ast);
     }   
 }
